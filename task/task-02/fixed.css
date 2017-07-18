@@ -1,0 +1,135 @@
+body,h1,h2,h3{
+margin: 0px;
+}
+body {
+font: 16px "Helvetica Neue",Helvetica,Arial,sans-serif;
+background: #ddd;
+}
+/*顶部样式*/
+header {
+background: #414141;
+height: 60px;
+}
+header nav {
+height: 60px;
+position: absolute;
+right: 0px;
+top: 0px;
+}
+header div {
+height: 60px;
+}
+header div img{
+padding: 11px 0px;
+}
+nav ul {
+list-style: none;
+margin: 10px 10px;
+}
+nav li {
+display: inline-block;
+}
+nav a {
+color: #fff;
+text-decoration: none;
+line-height: 40px;
+margin: 0px 5px;
+}
+nav a:hover {
+color:#DF6343;
+}
+.nav-current {
+color: #00AAEE;
+}
+/*文章部分*/
+main article {
+background: #fff;
+margin: 20px 20px;
+padding: 15px 0px;
+border-radius: 5px;
+box-shadow: 5px 5px 5px #888;
+}
+main .article-header,.article-body,.aside-inner {
+margin: 10px 20px;
+}
+main .article-header h2 {
+margin: 10px 0px;
+color: #333;
+}
+main .article-header h3 {
+margin: 5px 0px;
+font-size: 18px;
+font-weight: normal;
+color: #666;
+}
+main .article-header span {
+color: #999;
+font-size: 14px;
+}
+main article p {
+text-indent: 1.25em;
+text-align: justify;
+margin: 10px 0px;
+}
+main article .article-img {
+text-align: center;
+}
+main article img{
+width: 90%;
+box-shadow: 3px 3px 5px #888;
+border-radius: 5px;
+}
+main ul {
+list-style: none;
+}
+main article .article-type-img {
+width: 40%;
+border: 1px solid #bbb;
+border-radius: 5px;
+margin-top: 20px;
+}
+main article .article-type-img  {
+line-height: 50px;
+font-weight: bold;
+}
+main article .article-table {
+text-align: center;
+}
+main article .article-table span {
+font-weight: bold;
+font-size: 20px;
+line-height: 40px;
+}
+main article .article-table table {
+width: 100%;
+}
+main article .article-table th {
+background: #666;
+color: #fff;
+}
+main article .article-table tr:last-child {
+background: #ccc;
+}
+/*侧栏部分*/
+main aside {
+margin: 0px 20px;
+background: #fff;
+}
+/*footer部分*/
+footer {
+background: #414141;
+height: 80px;
+color: #fff;
+text-align: center;
+margin-top: 20px;
+}
+footer * {
+padding: 0px;
+margin: 0px;
+display: inline-block;
+}
+footer .footer-content {
+font-size: 14px;
+line-height: 40px;
+margin: 20px 0px;
+}
