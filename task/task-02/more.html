@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>task1</title>
-		<link rel="stylesheet" href="./fixed.css">
+		<link rel="stylesheet" href="./style1.css">
 	</head>
 	<body>
 		<!-- 整个容器 -->
@@ -139,38 +139,38 @@
 									</div>
 									<div class="article-table">
 										<span>下边是一个表格</span>
-									<!-- 表格展示 -->
-									<table border="1">
-										<tr>
-											<th>表头</th>
-											<th>表头</th>
-											<th>表头</th>
-										</tr>
-										<tr>
-											<td>内容单元格</td>
-											<td>内容单元格</td>
-											<td><a href="#">操作</a></td>
-										</tr>
-										<tr>
-											<td>内容单元格</td>
-											<td>内容单元格</td>
-											<td><a href="#">操作</a></td>
-										</tr>
-										<tr>
-											<td>内容单元格</td>
-											<td>内容单元格</td>
-											<td><a href="#">操作</a></td>
-										</tr>
-										<tr>
-											<td>内容单元格</td>
-											<td>内容单元格</td>
-											<td><a href="#">操作</a></td>
-										</tr>
-										<tr>
-											<td>总计</td>
-											<td colspan="2">1000</td>
-										</tr>
-									</table>
+										<!-- 表格展示 -->
+										<table border="1">
+											<tr>
+												<th>表头</th>
+												<th>表头</th>
+												<th>表头</th>
+											</tr>
+											<tr>
+												<td>内容单元格</td>
+												<td>内容单元格</td>
+												<td><a href="#">操作</a></td>
+											</tr>
+											<tr>
+												<td>内容单元格</td>
+												<td>内容单元格</td>
+												<td><a href="#">操作</a></td>
+											</tr>
+											<tr>
+												<td>内容单元格</td>
+												<td>内容单元格</td>
+												<td><a href="#">操作</a></td>
+											</tr>
+											<tr>
+												<td>内容单元格</td>
+												<td>内容单元格</td>
+												<td><a href="#">操作</a></td>
+											</tr>
+											<tr>
+												<td>总计</td>
+												<td colspan="2">1000</td>
+											</tr>
+										</table>
 									</div>
 								</div>
 							</div>
@@ -178,35 +178,55 @@
 					</div>
 					<aside>
 						<div class="aside-inner">
-							<h2>这里以后是一个侧栏,这是侧栏的标题</h2>
+							<h2>这里是侧栏且为侧栏标题</h2>
 							<div class="aside-form">
 								<!-- 表单 -->
 								<form action="#" method="get">
-									<span>请输入邮箱地址: </span>
-									<input type="email" placeholder="请输入邮箱地址" required /> <br/>
-									邮箱地址请按需求格式输入<br>
-									<span>请输入密码: </span>
-									<input type="password" placeholder="请输入密码"  required> <br/>
-									<span>请重复输入密码: </span>
-									<input type="password" placeholder="请输入密码"><br/>
-									密码请为6-16位英文数字<br/>
-									<br>
-									<span>性别: </span>
-									<input type="radio" name="gender" checked>男
-									<input type="radio" name="gender">女
-									<select name="city" id="city">
-										<option value="shanghai">上海</option>
-										<option value="beijing">北京</option>
-										<option value="shenzhen">深圳</option>
-										<option value="guangzhou">广州</option>
-									</select>
-									<span>爱好:</span>
-									<input type="checkbox" value="0">运动
-									<input type="checkbox" value="1">艺术
-									<input type="checkbox" value="2">科学<br/>
-									<span>个人描述:</span>
-									<textarea id="info" cols="20" rows="3" placeholder="请输入个人描述" ></textarea> <br/>
-									<input type="submit" value="确认提交">
+									<div>
+										<span>请输入邮箱地址: </span>
+										<input type="email" id="email" placeholder="请输入邮箱地址" required />
+									</div>
+									<div>
+										<p>邮箱地址请按需求格式输入</p>
+									</div>
+									<div>
+										<span>请输入密码: </span>
+										<input type="password" id="pass" placeholder="请输入密码"  required>
+									</div>
+									<div>
+										<span>请重复输入密码: </span>
+										<input type="cpsss" id="cpsss" placeholder="请重复输入密码">
+									</div>
+									<div>
+										<p>邮箱地址请按需求格式输入</p>
+									</div>
+									<div>
+										<span>性别: </span>
+										<input type="radio" name="gender" id="male" checked><label for="male" class="ext">男</label>
+										<input type="radio" name="gender" id="female"><label for="female" class="ext">女</label>
+									</div>
+									<div>
+										<span>城市</span>
+										<select name="city" id="city">
+											<option value="shanghai">上海</option>
+											<option value="beijing">北京</option>
+											<option value="shenzhen">深圳</option>
+											<option value="guangzhou">广州</option>
+										</select>
+									</div>
+									<div>
+										<span>爱好:</span>
+										<input type="checkbox" value="0" id="sport"><label for="sport" class="ext">运动</label>
+										<input type="checkbox" value="1" id="art"><label for="art" class="ext">艺术</label>
+										<input type="checkbox" value="2" id="sicence"><label for="sicence" class="ext">科学</label>
+									</div>
+									<div>
+										<span class="info">个人描述:</span>
+										<textarea id="info" cols="80" rows="3" placeholder="请输入个人描述" ></textarea> <br/>
+									</div>
+									<div class="aside-submit">
+										<input id="aside-button" type="submit" value="确认提交" >
+									</div>
 								</form>
 							</div>
 						</div>

@@ -1,0 +1,50 @@
+body {
+margin: 0;
+}
+/* 整体样式 */
+.container {
+background: #eee;
+}
+
+.left-wrap,.middle-wrap,.right-wrap {
+	position: absolute;
+	height: 100%;
+	top: 0;
+	padding: 20px;
+}
+
+.left-wrap {
+	background: #345;
+	width: 200px;
+	left: 0;
+}
+
+.middle-wrap {
+	background: #cde;
+	margin-right: 120px;
+	margin-left: 200px;
+}
+
+.right-wrap {
+	background: #8f7;
+	width: 120px;
+	right: 0;
+}
+
+.left-inner {
+	border:1px solid red;
+	border-radius: 2px;
+	height: 120px;
+	margin-right: 40px;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+.left-inner img{
+	width: 80px;
+	height: 80px;
+}
+
+.left-inner span{
+	font-size: 12px;
+}
